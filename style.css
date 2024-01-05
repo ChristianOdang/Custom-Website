@@ -5,23 +5,24 @@
   font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   list-style: none;
-  color: #000;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f2f2f2;
+  background: #000;
 }
 header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 5;
+  z-index: 1000;
   width: 100%;
   display: flex;
   justify-content: center;
-  background: rgb(228, 221, 221);
+  border-radius: 1px solid red;
+  color: #bfbfbf;
+  background: #000;
 }
 .navbar {
   display: flex;
@@ -58,7 +59,7 @@ header a,
 footer a {
   margin-left: 40px;
   text-decoration: none;
-  color: #000;
+  color: #f2f2f2;
   height: 100%;
   padding: 8px 0;
   display: inline-block;
@@ -71,7 +72,7 @@ footer a:hover {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: #f9f9f9;
+  background: #000;
 }
 .homepage::before {
   content: "";
