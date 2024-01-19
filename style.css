@@ -39,7 +39,6 @@ header {
 .navbar #hamburger-btn {
   cursor: pointer;
   visibility: hidden;
-  color: #fff;
 }
 .navbar .all-links {
   display: flex;
